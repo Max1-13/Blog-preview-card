@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-weight: 500;
+    font-size: clamp(14px, 16px, 18px);
+    font-family: 'Figtree', sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: clamp(300px, 25vw, 500px);
+    background-color: hsl(0, 0%, 100%);
+    border: 1px solid #000;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem;
+    box-shadow: 8px 8px #000;
+}
+
+.blog-img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.section {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 800;
+    color: #000;
+    background-color: hsl(47, 88%, 63%);
+    border-radius: 5px;
+    padding: 0.5em 0.8rem;
+    margin-bottom: 10px;
+    transition: background-color 0.1s linear;
+}
+
+.publish-date {
+    font-size: 0.8rem;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.btn {
+    text-decoration: none;
+    color: hsl(0, 0%, 7%);
+    transition: color 0.1s linear;
+}
+
+.btn:hover {
+    color: hsl(47, 88%, 63%);
+}
+
+.btn:active {
+    color: hsl(47, 88%, 63%);
+}
+
+.btn:focus-visible {
+    outline: 1px solid #010101;
+}
+
+p {
+    color: hsl(0, 0%, 42%);
+    margin-bottom: 20px;
+}
+
+.publisher {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.image-avatar {
+    width: 20%;
+}
+
+.publisher-name {
+    margin-left: 10px;
+    font-size: 0.8rem;
+    font-weight: 800;
+}
